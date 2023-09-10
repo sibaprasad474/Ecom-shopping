@@ -1,0 +1,33 @@
+@import url('/style.css');
+@media (max-width: 1000px) {
+    #sm-banner{
+       /* border: 1px solid red; */
+        height: 110vh;
+
+    }
+    .banner-box{
+        width: 80%;
+        height: 45%;
+    }
+
+    #sec-banner{
+        height: 120vh;
+    }
+    .boxc{
+        width: 60%;
+        height: 20%;
+       gap: 5%;
+    }
+
+    #signup-box{
+        height: 50vh;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .texts,.input{
+       width: 70%;
+     }
+     
+}
